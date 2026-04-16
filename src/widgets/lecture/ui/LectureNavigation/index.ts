@@ -1,0 +1,1 @@
+export { LectureNavigation } from './LectureNavigation';

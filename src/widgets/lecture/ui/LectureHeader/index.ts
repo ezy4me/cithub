@@ -1,0 +1,1 @@
+export { LectureHeader } from './LectureHeader';

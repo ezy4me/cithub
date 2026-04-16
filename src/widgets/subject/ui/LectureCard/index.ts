@@ -1,0 +1,1 @@
+export { LectureCard } from './LectureCard';

@@ -1,0 +1,96 @@
+{
+  "branding": {
+    "name": "Cithub",
+    "tagline": "Образовательная платформа для студентов",
+    "author": "MRS Education",
+    "year": 2026
+  },
+  "subjects": [
+    {
+      "id": "web-dev",
+      "name": "Веб-разработка",
+      "description": "Основы frontend и backend разработки",
+      "icon": "Globe",
+      "color": "#3b82f6",
+      "order": 1,
+      "enabled": true,
+      "roadmap": [
+        {
+          "title": "Основы HTML",
+          "description": "Структура веб-страниц",
+          "items": ["Введение в HTML", "Семантические теги", "Формы и ввод данных"]
+        },
+        {
+          "title": "CSS и стилизация",
+          "description": "Оформление веб-страниц",
+          "items": ["CSS: основы стилизации", "Flexbox и Grid", "Адаптивный дизайн"]
+        },
+        {
+          "title": "JavaScript",
+          "description": "Интерактивность",
+          "items": ["JavaScript: первые шаги", "DOM и события", "Асинхронный JavaScript"]
+        }
+      ]
+    },
+    {
+      "id": "algorithms",
+      "name": "Алгоритмы и структуры данных",
+      "description": "Базовые алгоритмы и структуры данных",
+      "icon": "Binary",
+      "color": "#8b5cf6",
+      "order": 2,
+      "enabled": true,
+      "roadmap": [
+        {
+          "title": "Анализ алгоритмов",
+          "description": "Оценка эффективности",
+          "items": ["Сложность алгоритмов", "O-нотация", "Сравнение алгоритмов"]
+        },
+        {
+          "title": "Структуры данных",
+          "description": "Организация данных",
+          "items": ["Массивы и списки", "Стек и очередь", "Деревья и графы"]
+        },
+        {
+          "title": "Алгоритмы сортировки",
+          "description": "Сортировка и поиск",
+          "items": ["Пузырьковая сортировка", "Быстрая сортировка", "Бинарный поиск"]
+        }
+      ]
+    },
+    {
+      "id": "databases",
+      "name": "Базы данных",
+      "description": "Проектирование и работа с БД",
+      "icon": "Database",
+      "color": "#10b981",
+      "order": 3,
+      "enabled": true,
+      "roadmap": [
+        {
+          "title": "Основы баз данных",
+          "description": "Понятия и типы",
+          "items": ["Введение в базы данных", "Реляционные БД", "NoSQL решения"]
+        },
+        {
+          "title": "SQL",
+          "description": "Язык запросов",
+          "items": ["Основы SQL", "JOIN и подзапросы", "Агрегатные функции"]
+        },
+        {
+          "title": "Проектирование",
+          "description": "Схемы и нормализация",
+          "items": ["Нормальные формы", "Индексы", "Оптимизация запросов"]
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "defaultTheme": "system",
+    "defaultAccentColor": "default",
+    "defaultFontFamily": "sans",
+    "allowUserCustomization": true,
+    "enableProgressTracking": true,
+    "enableFavorites": true
+  }
+}

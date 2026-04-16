@@ -1,0 +1,1 @@
+export { LectureProgress } from './LectureProgress';

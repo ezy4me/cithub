@@ -1,0 +1,18 @@
+{
+  "title": "Введение в ОАиП",
+  "content": [
+    { "type": "header", "level": 1, "text": "Что такое ОАиП" },
+    {
+      "type": "paragraph",
+      "text": "ОАиП расшифровывается как основы алгоритмизации..."
+    },
+    { "type": "code", "language": "js", "code": "console.log('Hello OAIP');" },
+    {
+      "type": "image",
+      "src": "https://wallpapers.com/images/hd/cartoon-cat-pictures-7k388g4q03hfn5yn.jpg",
+      "alt": "ОАиП"
+    },
+    { "type": "header", "level": 2, "text": "Цели изучения" },
+    { "type": "paragraph", "text": "Научиться писать алгоритмы..." }
+  ]
+}

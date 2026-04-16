@@ -1,0 +1,26 @@
+[
+  {
+    "id": "lecture-web-1",
+    "subjectId": "web-dev",
+    "title": "Введение в веб-технологии",
+    "description": "Основы веб-разработки для начинающих",
+    "file": "web-intro",
+    "duration": "30 мин"
+  },
+  {
+    "id": "lecture-web-2",
+    "subjectId": "web-dev",
+    "title": "Основы HTML",
+    "description": "Структура веб-страниц",
+    "file": "web-html-basics",
+    "duration": "45 мин"
+  },
+  {
+    "id": "lecture-alg-1",
+    "subjectId": "algorithms",
+    "title": "Введение в алгоритмы",
+    "description": "Базовые понятия и оценка сложности",
+    "file": "alg-intro",
+    "duration": "40 мин"
+  }
+]

@@ -1,0 +1,158 @@
+{
+  "lectures": [
+    {
+      "id": "web-1",
+      "subjectId": "web-dev",
+      "title": "Введение в HTML",
+      "description": "Основы языка разметки гипертекста",
+      "type": "lecture",
+      "order": 1,
+      "duration": "45 мин",
+      "enabled": true,
+      "file": "web-1.md"
+    },
+    {
+      "id": "web-2",
+      "subjectId": "web-dev",
+      "title": "CSS: основы стилизации",
+      "description": "Каскадные таблицы стилей",
+      "type": "lecture",
+      "order": 2,
+      "duration": "60 мин",
+      "enabled": true,
+      "file": "web-2.md"
+    },
+    {
+      "id": "web-3",
+      "subjectId": "web-dev",
+      "title": "JavaScript: первые шаги",
+      "description": "Введение в программирование на JS",
+      "type": "lecture",
+      "order": 3,
+      "duration": "90 мин",
+      "enabled": true,
+      "file": "web-3.md"
+    },
+    {
+      "id": "web-p1",
+      "subjectId": "web-dev",
+      "title": "Практика: HTML-формы",
+      "description": "Создание форм регистрации",
+      "type": "practice",
+      "order": 1,
+      "duration": "90 мин",
+      "enabled": true,
+      "file": "web-p1.md"
+    },
+    {
+      "id": "web-lab1",
+      "subjectId": "web-dev",
+      "title": "Лабораторная: Лендинг",
+      "description": "Создание одностраничного сайта",
+      "type": "lab",
+      "order": 1,
+      "duration": "180 мин",
+      "enabled": true,
+      "file": "web-lab1.md"
+    },
+    {
+      "id": "alg-1",
+      "subjectId": "algorithms",
+      "title": "Сложность алгоритмов",
+      "description": "Временная и пространственная сложность",
+      "type": "lecture",
+      "order": 1,
+      "duration": "60 мин",
+      "enabled": true,
+      "file": "alg-1.md"
+    },
+    {
+      "id": "alg-2",
+      "subjectId": "algorithms",
+      "title": "Структуры данных: массивы и списки",
+      "description": "Базовые линейные структуры данных",
+      "type": "lecture",
+      "order": 2,
+      "duration": "45 мин",
+      "enabled": true,
+      "file": "alg-2.md"
+    },
+    {
+      "id": "alg-3",
+      "subjectId": "algorithms",
+      "title": "Стек и очередь",
+      "description": "Линейные структуры LIFO и FIFO",
+      "type": "lecture",
+      "order": 3,
+      "duration": "45 мин",
+      "enabled": true,
+      "file": "alg-3.md"
+    },
+    {
+      "id": "alg-p1",
+      "subjectId": "algorithms",
+      "title": "Практика: Сортировки",
+      "description": "Реализация алгоритмов сортировки",
+      "type": "practice",
+      "order": 1,
+      "duration": "120 мин",
+      "enabled": true,
+      "file": "alg-p1.md"
+    },
+    {
+      "id": "alg-lab1",
+      "subjectId": "algorithms",
+      "title": "Лабораторная: Стек и калькулятор",
+      "description": "Реализация калькулятора на стеке",
+      "type": "lab",
+      "order": 1,
+      "duration": "180 мин",
+      "enabled": true,
+      "file": "alg-lab1.md"
+    },
+    {
+      "id": "db-1",
+      "subjectId": "databases",
+      "title": "Введение в базы данных",
+      "description": "Основные понятия и типы БД",
+      "type": "lecture",
+      "order": 1,
+      "duration": "45 мин",
+      "enabled": true,
+      "file": "db-1.md"
+    },
+    {
+      "id": "db-2",
+      "subjectId": "databases",
+      "title": "Основы SQL",
+      "description": "SELECT, INSERT, UPDATE, DELETE",
+      "type": "lecture",
+      "order": 2,
+      "duration": "60 мин",
+      "enabled": true,
+      "file": "db-2.md"
+    },
+    {
+      "id": "db-p1",
+      "subjectId": "databases",
+      "title": "Практика: SQL запросы",
+      "description": "Написание SQL запросов",
+      "type": "practice",
+      "order": 1,
+      "duration": "90 мин",
+      "enabled": true,
+      "file": "db-p1.md"
+    },
+    {
+      "id": "db-lab1",
+      "subjectId": "databases",
+      "title": "Лабораторная: Схема БД",
+      "description": "Проектирование базы данных",
+      "type": "lab",
+      "order": 1,
+      "duration": "180 мин",
+      "enabled": true,
+      "file": "db-lab1.md"
+    }
+  ]
+}
