@@ -56,7 +56,7 @@ public/
 
 ### Навигация
 - **Desktop**: Sidebar с навигацией, поиском и списком предметов
-- **Mobile**: Bottom Navigation с 4-5 вкладками
+- **Mobile**: Bottom Navigation
 
 ### Страницы
 - `/` — Главная (продолжить обучение, прогресс, избранное)
@@ -112,28 +112,8 @@ Markdown → слайды (разделение `---`):
 ```
 public/config/subjects.json   # Метаданные предметов
 public/config/lectures.json   # Метаданные лекций
-public/materials/lectures/    # Markdown файлы
+public/content/    # Markdown файлы
 ```
-
-Для добавления новой лекции:
-1. Создайте `.md` файл в `public/materials/lectures/`
-2. Добавьте запись в `public/config/lectures.json`
-3. Обновите `public/config/subjects.json` при необходимости
-
-## 🔌 Масштабируемость
-
-Проект подготовлен для добавления backend:
-
-```
-src/api/client.ts    # API клиент с mock/реальным режимом
-src/shared/hooks/    # React Query / SWR хуки
-```
-
-Для подключения реального API:
-1. Замените файловую загрузку на fetch к серверу
-2. Реализуйте backend эндпоинты
-3. Обновите ConfigLoader для работы с API
-
 ## 📦 Команды
 
 ```bash
@@ -145,9 +125,6 @@ npm run lint     # Линтинг
 
 ## 💝 Сделано с любовью
 
-Cithub — образовательная платформа от **MRS Education**.
-© 2026 MRS Education • Все права защищены
+Cithub — образовательная платформа от **MRS**.
+© 2026 MRS • Все права защищены
 
-## 📄 Лицензия
-
-MIT

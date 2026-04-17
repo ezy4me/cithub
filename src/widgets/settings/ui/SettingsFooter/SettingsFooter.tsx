@@ -18,7 +18,7 @@ export function SettingsFooter() {
         </div>
         <div className="mt-4 pt-3 sm:pt-4 border-t border-primary/20">
           <p className="text-[10px] sm:text-xs text-muted-foreground text-center">
-            © 2026 MRS Education • Все права защищены
+            © 2026 MRS • Все права защищены
           </p>
         </div>
       </CardContent>
