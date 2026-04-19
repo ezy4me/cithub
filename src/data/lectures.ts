@@ -357,4 +357,11 @@ export const presentations: Presentation[] = [
     title: 'Работа с удалённым репозиторием и ветки',
     file: 'isrpo/presentations/lec3',
   },
+   {
+    id: 'oaip-lec21',
+    subjectId: 'oaip',
+    lectureId: 'oaip-lec21',
+    title: 'XML и JSON: структурированные данные и сериализация [21]',
+    file: 'oaip/presentations/lec21',
+  },
 ];
