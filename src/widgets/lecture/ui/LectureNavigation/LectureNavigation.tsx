@@ -1,7 +1,7 @@
-import { Link } from 'react-router-dom';
-import { ChevronLeft, ChevronRight, Check } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import type { Lecture } from '@/entities/subject';
+import { Link } from "react-router-dom";
+import { ChevronLeft, ChevronRight, Check } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import type { Lecture } from "@/entities/subject";
 
 interface LectureNavigationProps {
   prevLecture: Lecture | null;
@@ -25,12 +25,14 @@ export function LectureNavigation({
         </div>
       )}
 
-      <div className="flex items-center justify-between gap-3 sm:gap-4">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-3 sm:gap-4">
         {prevLecture ? (
-          <Link to={`/lecture/${prevLecture.id}`} className="flex-1">
+          <Link to={`/lecture/${prevLecture.id}`} className="w-full sm:flex-1">
             <Button variant="outline" className="w-full gap-2 justify-start">
               <ChevronLeft className="h-4 w-4 shrink-0" />
-              <span className="truncate text-xs sm:text-sm">{prevLecture.title}</span>
+              <span className="truncate text-xs sm:text-sm">
+                {prevLecture.title}
+              </span>
             </Button>
           </Link>
         ) : (
@@ -38,15 +40,19 @@ export function LectureNavigation({
         )}
 
         {nextLecture ? (
-          <Link to={`/lecture/${nextLecture.id}`}>
-            <Button className="gap-2 justify-end">
-              <span className="truncate text-xs sm:text-sm">{nextLecture.title}</span>
+          <Link to={`/lecture/${nextLecture.id}`} className="w-full sm:flex-1">
+            <Button className="w-auto gap-2 justify-end">
+              <span className="truncate text-xs sm:text-sm">
+                {nextLecture.title}
+              </span>
               <ChevronRight className="h-4 w-4 shrink-0" />
             </Button>
           </Link>
         ) : (
           <Link to={`/subject/${subjectId}`} className="flex-1">
-            <Button className="w-full text-xs sm:text-sm">Завершить предмет</Button>
+            <Button className="w-full text-xs sm:text-sm">
+              Завершить предмет
+            </Button>
           </Link>
         )}
       </div>
